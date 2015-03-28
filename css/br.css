@@ -79,6 +79,13 @@ a img:hover {
   cursor: pointer;
 }
 
+iframe {
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
 #navbar .underlined {
   border-bottom: 1px solid #E6E6E6;
   padding-bottom: 2px;
@@ -186,6 +193,10 @@ a img:hover {
   padding-bottom: 12px;
 }
 
+.portfolio-piece a {
+  display: block;
+  text-align: center;
+}
 .portfolio-piece p:nth-child(4){
   padding-top: 40px;
 }
@@ -451,28 +462,28 @@ img {
 }
 
 .c1 {
-    -webkit-animation: rota 3.2s 1 ease-out forwards;
-    animation: rota 3.2s 1 ease-out forwards;
+    -webkit-animation: rota 1.1s 1 ease-out forwards;
+    animation: rota 1.1s 1 ease-out forwards;
 }
 
 .c2 {
-    -webkit-animation: rotb 3.2s 1 ease-out forwards;
-    animation: rotb 3.2s 1 ease-out forwards;
+    -webkit-animation: rotb 1.1s 1 ease-out forwards;
+    animation: rotb 1.1s 1 ease-out forwards;
 }
 
 .c3 {
-  -webkit-animation: rotc 3.2s 1 ease-out forwards;
-    animation: rotc 3.2s 1 ease-out forwards;
+  -webkit-animation: rotc 1.1s 1 ease-out forwards;
+    animation: rotc 1.1s 1 ease-out forwards;
 }
 
 .c4 {
-  -webkit-animation: rotd 3.2s 1 ease-out forwards;
-    animation: rotd 3.2s 1 ease-out forwards;
+  -webkit-animation: rotd 1.1s 1 ease-out forwards;
+    animation: rotd 1.1s 1 ease-out forwards;
 }
 
 .c5 {
-  -webkit-animation: rote 3.2s 1 ease-out forwards;
-    animation: rote 3.2s 1 ease-out forwards;
+  -webkit-animation: rote 1.1s 1 ease-out forwards;
+    animation: rote 1.1s 1 ease-out forwards;
 }
 
 /**
@@ -484,9 +495,9 @@ img {
 
 @keyframes rota {
     from {
-        transform: rotate(0deg)
+        transform: rotate(270deg)
                    translate(-100px)
-                   rotate(0deg);
+                   rotate(-270deg);
     }
     to {
         transform: rotate(360deg)
@@ -497,9 +508,9 @@ img {
 
 @-webkit-keyframes rota {
     from {
-        -webkit-transform: rotate(0deg)
+        -webkit-transform: rotate(270deg)
                    translate(-100px)
-                   rotate(0deg);
+                   rotate(-270deg);
     }
     to {
         -webkit-transform: rotate(360deg)
@@ -510,9 +521,9 @@ img {
 
 @keyframes rotb {
     from {
-        transform: rotate(72deg)
+        transform: rotate(342deg)
                    translate(-100px)
-                   rotate(-72deg);
+                   rotate(-342deg);
     }
     to {
         transform: rotate(432deg)
@@ -523,9 +534,9 @@ img {
 
 @-webkit-keyframes rotb {
     from {
-        -webkit-transform: rotate(72deg)
+        -webkit-transform: rotate(342deg)
                    translate(-100px)
-                   rotate(-72deg);
+                   rotate(-432deg);
     }
     to {
         -webkit-transform: rotate(432deg)

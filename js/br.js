@@ -43,10 +43,10 @@ $( document ).ready(function() {
   $(".iDesc").hide();
 	$("#circle").hide();
   $("#icons img").css({ opacity: 0.001});;
-	$("#circle").fadeIn(1000);
+	$("#circle").fadeIn(1100);
   
   //icons fade in
-  $("#icons img").fadeTo(500,1);
+  $("#icons img").fadeTo(700,1);
   $("#i1").attr('src','assets/ico/catan.jpg');
   $("#i2").attr('src','assets/ico/ls.jpg');
   $("#i3").attr('src','assets/ico/rt.jpg');
