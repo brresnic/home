@@ -51,6 +51,13 @@ body {
   src: local('slab'), url('../fonts/Calendas_Plus.otf') format('opentype');
 }
 
+@font-face {
+  font-family: 'book';
+  font-style: normal;
+  font-weight: normal;
+  src: local('book'), url('../fonts/KlinicSlabBook.otf') format('opentype');
+}
+
 h3 {
   font-family: 'slab';
   display: none;
@@ -59,6 +66,15 @@ h3 {
 a:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+
+
+.subtitle {
+  font-size: 1.5em;
+  font-family: 'book';
+  text-align: left;
+
 }
 
 img:hover {
@@ -92,6 +108,23 @@ img {
   border-bottom: 0px;
   padding-bottom: 20px;
   display: inline-block;
+}
+
+.boxes h1 {
+  font-family: 'cub';
+  letter-spacing: 3px;
+  text-align: left;
+  font-size: 4em;
+  border-bottom: 0px;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+.boxes {
+  max-width: 620px;
+  position: relative;
+  margin:0 auto;
+  color: #222;
 }
 
 #first{
@@ -249,31 +282,48 @@ img {
   right: 55px;
   top: -54px;
 }
-
+.portfolio-piece .work-cited {
+  font-size: 1.3em;
+  padding-top: 60px;
+}
+.works {
+  font-size: .8em;
+}
 .portfolio-piece{
-  padding-top: 20px;
+  font-family: 'book';
+  font-size: 1.1em;
+  padding-top: 30px;
   max-width: 700px;
   margin: 0 auto;
   line-height: 190%;
   position: relative;
-  background: rgb(255,255,255);
+/*  background: rgb(255,255,255);
   background: -moz-linear-gradient(left,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 50%,  rgba(255,255,255,0) 100%);
   background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(50%,rgba(255,255,255,1)), color-stop(50%,rgba(255,255,255,1)), color-stop(50%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,1)));
   background: -webkit-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 50%,rgba(255,255,255,0) 100%);
   background: -o-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 50%,rgba(255,255,255,0) 100%);
   background: -ms-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 50%,rgba(255,255,255,0) 100%);
-  background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 50%,rgba(255,255,255,0) 100%);
+  background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 50%,rgba(255,255,255,0) 100%);*/
 }
 .portfolio-piece p{
   padding-bottom: 12px;
+}
+.portfolio-piece img{
+  max-width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+.portfolio-piece .cap {
+  text-align: center;
+  display: block;
 }
 
 .portfolio-piece a {
   display: block;
   text-align: center;
 }
-.portfolio-piece p:nth-child(4){
-  padding-top: 40px;
+.portfolio-piece p{
+  padding-top: 10px;
 }
 
 @media screen and (max-width:729px) {
